@@ -27,6 +27,6 @@ I'm using this converter in my own project and couldn't find any errors, I have 
 
 ###Notes
 Internally the PdfConverter uses the XpsConverter to create a XPS-Document, writes it into the tempfolder and then uses [Free Spire.PDF for .NET](https://www.nuget.org/packages/FreeSpire.PDF/) to create a PDF from this XPS-Document. 
-Unfortunately the Spride.PDF library can only create PDF-Documents from files, so we need to write the XPS-Document to disc.  
+Unfortunately the Free Spire.PDF library can only create PDF-Documents from files, so we need to write the XPS-Document to disc.  
 Another drawback of the Free Spire.PDF version is, that it allows only PDF's with a maximum of 10 pages.  
 As you can see, there is no magic in this converter, it just brings the bits together so that you don't have to waste time to find them yourself.
