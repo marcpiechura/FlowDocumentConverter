@@ -14,7 +14,7 @@ If you want to create a XPS-Document
 If you want to create a PDF-Document
 >PdfConverter.ConvertDoc(\<some FlowDocument>);  
 
-both methods return a byte[] array, so you can write them into a file, if you want to. 
+both methods return a byte[], so you can write them into a file, if you want to. 
 
 ###FlowDocuments
 I'm using this converter in my own project and couldn't find any errors, I have used the following elements in my FlowDocumennt
