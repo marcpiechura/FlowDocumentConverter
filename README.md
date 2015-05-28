@@ -9,10 +9,10 @@ or download the DLL's from the [Releases](https://github.com/Silv3rcircl3/FlowDo
 ###Usage
 
 If you want to create a xps file  
- -  XpsConverter.ConvertDoc(\<some FlowDocument>);  
+>XpsConverter.ConvertDoc(\<some FlowDocument>);  
 
 If you want to create a pdf file
-- PdfConverter.ConvertDoc(\<some FlowDocument>);  
+>PdfConverter.ConvertDoc(\<some FlowDocument>);  
 
 both methods return a byte[] array, so you can write them into a file, if you want to. 
 
