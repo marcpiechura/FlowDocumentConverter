@@ -16,6 +16,15 @@ If you want to create a PDF-Document
 
 both methods return a byte[] array, so you can write them into a file, if you want to. 
 
+###FlowDocuments
+I'm using this converter in my own project and couldn't find any errors, I have used the following elements in my FlowDocumennt
+- Images from a resource
+- Bindings with Run, ItemsControl, TextBlock as well as converters
+- DataTemplates
+- Controls like a Grid, Rectangle, ItemsControl, TextBlock, Border...
+- Tables
+
+
 ###Notes
 Internally the PdfConverter uses the XpsConverter to create a XPS-Document, writes it into the tempfolder and then uses [Free Spire.PDF for .NET](https://www.nuget.org/packages/FreeSpire.PDF/) to create a PDF from this XPS-Document. 
 Unfortunately the Spride.PDF library can only create PDF-Documents from files, so we need to write the XPS-Document to disc.  
